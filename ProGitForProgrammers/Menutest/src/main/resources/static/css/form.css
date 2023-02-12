@@ -1,0 +1,26 @@
+*{
+	font-family: Microsoft JhengHei;
+	font-weight:900;
+}
+body{
+	padding: 0;
+	margin: 0;
+}
+.bgd{
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../img/menu_background.jpg);
+	background-size: cover;
+	background-position: 40% 50%;
+	position: relative;
+}
+.container{
+	position: absolute;
+	top:30%;
+	left:33%;
+}
+.form-control{
+	border: 2px solid black;
+	width: 40%;
+	margin: 5px 0;
+}
