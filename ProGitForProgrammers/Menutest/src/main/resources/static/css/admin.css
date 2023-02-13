@@ -1,0 +1,56 @@
+*{
+	font-family: Microsoft JhengHei;
+	font-weight:900;
+}
+body{
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../img/menu_background.jpg);
+	background-size: cover;
+	background-position: 40% 50%;
+	position: relative;
+
+}
+.container a{
+	position: absolute;
+	top: 1.5%;
+	left: 90%;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.container{
+	position: relative;
+	top:5%;
+}
+.card{
+	border: 0px;
+}
+.card-header{
+	background-color:#646881;
+}
+.card-body{
+	background-color: #63595C;
+}
+.form-control{
+	border: 2px solid black;
+	width: 40%;
+	margin: 5px 0;
+}
+.findTable{
+	position: relative;
+	top: 3%;
+	left: -3%;
+	width: 106%;
+}
+table thead {
+	background-color:#646881;
+}
+table tbody tr{
+	background-color: #63595C;
+}
+table tbody tr td{
+	border: 2px solid black;
+}
