@@ -41,16 +41,38 @@ body{
 }
 .findTable{
 	position: relative;
-	top: 3%;
-	left: -3%;
-	width: 106%;
+	top: 3%;	
+	width: 100%;
 }
-table thead {
+table{
+	width: 100%;
+}
+table thead {	
 	background-color:#646881;
 }
+table thead tr th{
+	 text-align: center;
+}
+
+
 table tbody tr{
 	background-color: #63595C;
 }
 table tbody tr td{
 	border: 2px solid black;
+}
+hr {
+	position: relative;
+	margin-top: 4%;
+	border: 1.5px solid black;
+}
+h1{
+	position: relative;
+	font-weight: 1000;
+	top:15px;
+}
+a{
+	position: relative;
+	margin-top: 1%;
+	color:black;
 }

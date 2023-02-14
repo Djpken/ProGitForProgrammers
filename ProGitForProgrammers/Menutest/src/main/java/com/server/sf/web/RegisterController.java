@@ -1,5 +1,7 @@
 package com.server.sf.web;
 
+import java.util.TimeZone;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -22,10 +24,9 @@ public class RegisterController {
 
 	@PostMapping
 	public ResponseEntity<Object> loginSubmit(@RequestBody Employee employee) {
-		
 		if (!employeeService.registerAndExist(employee)) {
 			return new ResponseEntity<>("建置完成", HttpStatus.OK);
 		}
 		return new ResponseEntity<>("更新完成", HttpStatus.OK);
-	}
+	}	
 }

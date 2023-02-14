@@ -2,6 +2,8 @@ package com.server.sf.service;
 
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.TimeZone;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -48,7 +50,9 @@ public class EmployeeService {
 	public void getAndSetScore(String account, int score) {
 		Employee employee=employeeRepository.findByAccount(account);
 		employee.setScore(score);
-		employee.setUpdatetime(LocalDateTime.now());
+		LocalDateTime now=LocalDateTime.now();
+		LocalDateTime time=now.plusHours(8);
+		employee.setUpdatetime(time);
 		employeeRepository.save(employee);
 	}
 }

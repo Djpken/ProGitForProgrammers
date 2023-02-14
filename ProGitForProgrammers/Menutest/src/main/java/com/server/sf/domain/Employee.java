@@ -1,6 +1,8 @@
 package com.server.sf.domain;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Date;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.Column;
@@ -35,9 +37,9 @@ public class Employee {
 	private String cellphone;
 	@Column
 	@JsonFormat(pattern = "yyyy-MM-dd")
-	private Date birthday;
+	private LocalDate birthday;
 	@Column
 	@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
 	private LocalDateTime updatetime;
-
+	
 }

@@ -59,7 +59,7 @@ $(document).ready(function() {
         var password = $('#setPassword').val();
         var name = $('#setName').val();
         var birthday = $('#setBirthday').val();
-        var cellphone = $('#setCellphone').val();
+        var cellphone = $('#setCellphone').val();   
         $.ajax({
             url: '/register',
             type: 'POST',
