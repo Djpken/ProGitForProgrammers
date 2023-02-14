@@ -1,7 +1,5 @@
 package com.server.sf.web;
 
-import java.util.TimeZone;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -11,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.server.sf.domain.Employee;
-import com.server.sf.service.*;
+import com.server.sf.service.EmployeeService;
 
 @RestController
 @RequestMapping("/register")
