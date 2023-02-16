@@ -16,7 +16,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name = "Employee")
+@Table(name = "employee")
 @Data // 解作用比較全，其包含註解的集合@ToString，@EqualsAndHashCode，所有字段的@Getter和所有非final字段的@Setter,
 @NoArgsConstructor // 這幾個註解分別為類自動產生了無參構造器、指定參數的構造器和包含所有參數的構造器
 @AllArgsConstructor

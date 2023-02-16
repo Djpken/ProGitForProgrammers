@@ -6,6 +6,10 @@ body{
 	padding: 0;
 	margin: 0;
 }
+hr{
+	width: 40%;
+	border: 1.5px solid black;
+}
 .bgd{
 	width: 100vw;
 	height: 100vh;
@@ -16,11 +20,26 @@ body{
 }
 .container{
 	position: absolute;
-	top:30%;
+	top:25%;
 	left:33%;
 }
 .form-control{
 	border: 2px solid black;
 	width: 40%;
 	margin: 5px 0;
+}
+.container h3{
+	position: relative;
+	top:0.35em;
+	letter-spacing: 0.2em;
+	font-weight: 1000;
+}
+.mb-3 label{
+	position: relative;
+	left:0.4em;
+	top:0.5em;
+	letter-spacing: 0.1em;
+}
+.btn{
+	background-color: gray;
 }

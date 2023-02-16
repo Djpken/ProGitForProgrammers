@@ -26,7 +26,6 @@ $(document).ready(function() {
             contentType: 'application/json',
             data: JSON.stringify({ score:score}),
             success: function(data) {
-                alert(data);
             },
             error: function(responseEntity) {
                 alert("建立失敗");
