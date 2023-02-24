@@ -7,7 +7,7 @@ body{
 	margin: 0;
 }
 hr{
-	width: 40%;
+	width: 50%;
 	border: 1.5px solid black;
 }
 .bgd{
@@ -21,16 +21,18 @@ hr{
 .container{
 	position: absolute;
 	top:25%;
-	left:33%;
+	left:37.5%;
+	width: 50%;
 }
 .form-control{
 	border: 2px solid black;
-	width: 40%;
+	width: 50%;
 	margin: 5px 0;
 }
 .container h3{
 	position: relative;
 	top:0.35em;
+	left: 19.5%;
 	letter-spacing: 0.2em;
 	font-weight: 1000;
 }
@@ -41,5 +43,14 @@ hr{
 	letter-spacing: 0.1em;
 }
 .btn{
-	background-color: gray;
+	position: relative;
+	left: 7.6em;
+	top:1em;
+	font-weight: 1000;
+/*	font-size: 28px;*/
+	letter-spacing: 0.2em;
+}
+.btn:hover{
+	color:#C7B09E;
+
 }
